@@ -15,6 +15,7 @@ For general usages, preparing BCF files from other Rule Checking software like [
 For more information about the SmartBCF, documentation links are below.
 * [SmartBCF Manager](Documentation/smartbcf_manager.md)
 * [SmartBCF Add-In for Revit](Documentation/smartbcf_add-in.md)
+* [SmartBCF Schema](Documentation/smartbcf_schema.md)
 
 #Installation
 
