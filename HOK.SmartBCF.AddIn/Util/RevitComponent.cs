@@ -11,6 +11,9 @@ using System.Threading.Tasks;
 
 namespace HOK.SmartBCF.AddIn.Util
 {
+    /// <summary>
+    /// Revit-specific component properties
+    /// </summary>
     public class RevitComponent : HOK.SmartBCF.Schemas.Component, INotifyPropertyChanged
     {
         private Element rvtElement = null;

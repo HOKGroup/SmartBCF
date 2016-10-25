@@ -9,6 +9,9 @@ using System.Windows.Input;
 
 namespace HOK.SmartBCF.Utils
 {
+    /// <summary>
+    /// Commands for event-driven binding
+    /// </summary>
     public static class RoutedCommands
     {
         public static readonly RoutedUICommand MoveForward = new RoutedUICommand("MoveForward", "MoveForward", typeof(UserControl));

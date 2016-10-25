@@ -18,6 +18,9 @@ using Component = HOK.SmartBCF.Schemas.Component;
 
 namespace HOK.SmartBCF.AddIn
 {
+    /// <summary>
+    /// ComponentViewModel bounded to ComponentWindow.xaml
+    /// </summary>
     public class ComponentViewModel:INotifyPropertyChanged
     {
         private BCFViewModel bcfView;
@@ -108,6 +111,9 @@ namespace HOK.SmartBCF.AddIn
             }
         }
 
+        /// <summary>
+        /// Refresh components after selection of topic or viewpoint is changed 
+        /// </summary>
         public void RefreshComponents()
         {
             try
@@ -156,29 +162,6 @@ namespace HOK.SmartBCF.AddIn
                                         rvtComponent = new RevitComponent(comp, compElement, rlp);
                                     } 
                                 }
-                                /*
-                                BuiltInParameter bip = BuiltInParameter.IFC_GUID;
-                                ParameterValueProvider provider = new ParameterValueProvider(new ElementId(bip));
-                                FilterStringRuleEvaluator evaluator = new FilterStringEquals();
-
-                                FilterRule rule = new FilterStringRule(provider, evaluator, comp.IfcGuid, true);
-                                ElementParameterFilter filter = new ElementParameterFilter(rule);
-
-                                foreach (RevitLinkProperties rlp in linkDictionary.Values)
-                                {
-                                    if (null != rlp.LinkedDocument)
-                                    {
-                                        FilteredElementCollector collector = new FilteredElementCollector(rlp.LinkedDocument);
-                                        ICollection<Element> elements = collector.WherePasses(filter).WhereElementIsNotElementType().ToElements();
-
-                                        if (elements.Count > 0)
-                                        {
-                                            Element element = elements.First();
-                                            rvtComponent = new RevitComponent(comp, element, rlp);
-                                            break;
-                                        }
-                                    }
-                                }*/
                             }
                            
                             if (null != rvtComponent)
@@ -222,6 +205,9 @@ namespace HOK.SmartBCF.AddIn
             }
         }
 
+        /// <summary>
+        /// Filter out components by selected categories
+        /// </summary>
         public void ApplyCategoryFilter()
         {
             try
@@ -262,6 +248,9 @@ namespace HOK.SmartBCF.AddIn
             }
         }
 
+        /// <summary>
+        /// Apply view settings
+        /// </summary>
         public void UpdateBackgroundView()
         {
             try
@@ -282,6 +271,10 @@ namespace HOK.SmartBCF.AddIn
             }
         }
 
+        /// <summary>
+        /// Move to the next component
+        /// </summary>
+        /// <param name="param"></param>
         public void MoveComponentExecuted(object param)
         {
             try
@@ -314,6 +307,7 @@ namespace HOK.SmartBCF.AddIn
                 string message = ex.Message;
             }
         }
+
 
         public void WriteParametersExecuted(object param)
         {
@@ -414,6 +408,9 @@ namespace HOK.SmartBCF.AddIn
             }
         }
 
+        /// <summary>
+        /// Update BCFView to have consistent values with the MainWindow
+        /// </summary>
         private void UpdateBCFView()
         {
             try

@@ -41,6 +41,11 @@ namespace HOK.SmartBCF.UserControls
             viewModel = this.DataContext as BCFViewModel;
         }
 
+        /// <summary>
+        /// Drop a database or a bcfzip to be read
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void UserControl_Drop(object sender, DragEventArgs e)
         {
             try

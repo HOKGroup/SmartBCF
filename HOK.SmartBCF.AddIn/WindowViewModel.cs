@@ -19,6 +19,9 @@ using System.Windows.Input;
 
 namespace HOK.SmartBCF.AddIn
 {
+    /// <summary>
+    /// View Model bounded to MainWindow.xaml
+    /// </summary>
     internal class WindowViewModel
     {
         private BCFHandler m_handler;
@@ -40,6 +43,7 @@ namespace HOK.SmartBCF.AddIn
         public Dictionary<string, RevitLinkProperties> LinkDictionary { get { return linkDictionary; } set { linkDictionary = value; } }
         public Dictionary<string, RevitComponent> CompDictionary { get { return compDictionary; } set { compDictionary = value; } }
 
+        //Commands
         public ICommand ComponentCommand { get { return componentCommad; } }
         public ICommand IssueChangedCommand { get { return issueChangedCommand; } }
         public ICommand ComponentChangedCommand { get { return componentChangedCommand; } }
@@ -59,6 +63,10 @@ namespace HOK.SmartBCF.AddIn
             addViewCommand = new RelayCommand(param => this.AddViewCommandExecuted(param));
         }
 
+        /// <summary>
+        /// Collect information from link instances
+        /// </summary>
+        /// <returns></returns>
         public Dictionary<string, RevitLinkProperties> CollectLinkInfo()
         {
             Dictionary<string, RevitLinkProperties> dictionary = new Dictionary<string, RevitLinkProperties>();
@@ -91,6 +99,10 @@ namespace HOK.SmartBCF.AddIn
             return dictionary;
         }
 
+        /// <summary>
+        /// Collect information of all model elements for the fast search by Ifc Guid
+        /// </summary>
+        /// <returns></returns>
         public Dictionary<string, RevitComponent> CollectElementInfo()
         {
             Dictionary<string, RevitComponent> dictionary = new Dictionary<string, RevitComponent>();
@@ -138,6 +150,10 @@ namespace HOK.SmartBCF.AddIn
             return dictionary;
         }
 
+        /// <summary>
+        /// Open Component Window
+        /// </summary>
+        /// <param name="param"></param>
         public void ComponentExecuted(object param)
         {
             try
@@ -179,6 +195,10 @@ namespace HOK.SmartBCF.AddIn
             }
         }
 
+        /// <summary>
+        /// Apply updated component info 
+        /// </summary>
+        /// <param name="param"></param>
         public void ComponentChanged(object param)
         {
             try
@@ -210,6 +230,10 @@ namespace HOK.SmartBCF.AddIn
             }
         }
 
+        /// <summary>
+        /// Open AddViewWindow
+        /// </summary>
+        /// <param name="param"></param>
         public void AddViewCommandExecuted(object param)
         {
             try

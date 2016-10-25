@@ -15,6 +15,9 @@ using System.Windows.Input;
 
 namespace HOK.SmartBCF.AddIn
 {
+    /// <summary>
+    /// View Model bounded to Viewpoint 
+    /// </summary>
     public class AddViewModel : INotifyPropertyChanged
     {
         private BCFViewModel bcfView;
@@ -68,6 +71,10 @@ namespace HOK.SmartBCF.AddIn
             }
         }
 
+        /// <summary>
+        /// brwose viewpoint image file
+        /// </summary>
+        /// <param name="param"></param>
         public void BrowseExecuted(object param)
         {
             try
@@ -88,6 +95,11 @@ namespace HOK.SmartBCF.AddIn
             }
         }
 
+        /// <summary>
+        /// Define viewpoint class by the selected image file
+        /// </summary>
+        /// <param name="imgFile"></param>
+        /// <returns></returns>
         private ViewPoint DefineViewPoint(string imgFile)
         {
             ViewPoint viewPoint = new ViewPoint();
@@ -110,6 +122,10 @@ namespace HOK.SmartBCF.AddIn
             return viewPoint;
         }
 
+        /// <summary>
+        /// Take snapshot
+        /// </summary>
+        /// <param name="param"></param>
         public void SnapshotExecuted(object param)
         {
             try
@@ -125,6 +141,10 @@ namespace HOK.SmartBCF.AddIn
             }
         }
 
+        /// <summary>
+        /// Add user viewpoint
+        /// </summary>
+        /// <param name="param"></param>
         public void AddExecuted(object param)
         {
             try
@@ -140,6 +160,10 @@ namespace HOK.SmartBCF.AddIn
             }
         }
 
+        /// <summary>
+        /// Insert a new viewpoint into the database
+        /// </summary>
+        /// <param name="vp"></param>
         private void AddViewPoint(ViewPoint vp)
         {
             try

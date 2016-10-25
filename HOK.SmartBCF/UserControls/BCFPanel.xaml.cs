@@ -22,10 +22,11 @@ using System.Diagnostics;
 namespace HOK.SmartBCF.UserControls
 {
     /// <summary>
-    /// Interaction logic for UserControl1.xaml
+    /// Interaction logic for BCFPanel.xaml
     /// </summary>
     public partial class BCFPanel : UserControl
     {
+        //Selected Markup to bind
         private Markup selectedMarkup = null;
 
         public TopicType[] topicTypes = new TopicType[] { TopicType.Error, TopicType.Info, TopicType.Unknown, TopicType.Warning, 
@@ -128,7 +129,11 @@ namespace HOK.SmartBCF.UserControls
                 string message = ex.Message;
             }
         }
-
+        /// <summary>
+        /// Expand the snapshot image
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonView_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -155,6 +160,11 @@ namespace HOK.SmartBCF.UserControls
             }
         }
 
+        /// <summary>
+        /// Add a new comment
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonAddComment_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -184,6 +194,11 @@ namespace HOK.SmartBCF.UserControls
             }
         }
 
+        /// <summary>
+        /// Delete a selected comment
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonDeleteComment_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -208,6 +223,11 @@ namespace HOK.SmartBCF.UserControls
             }
         }
 
+        /// <summary>
+        /// Update Modified Author when cell edit is ending
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void dataGridComment_CellEditEnding(object sender, DataGridCellEditEndingEventArgs e)
         {
             try
@@ -240,6 +260,11 @@ namespace HOK.SmartBCF.UserControls
             }
         }
 
+        /// <summary>
+        /// Collapse the expander for components
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void expanderComponent_Collapsed(object sender, RoutedEventArgs e)
         {
             try
@@ -254,6 +279,11 @@ namespace HOK.SmartBCF.UserControls
             }
         }
 
+        /// <summary>
+        /// Expand the expander for components
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void expanderComponent_Expanded(object sender, RoutedEventArgs e)
         {
             try
@@ -268,6 +298,11 @@ namespace HOK.SmartBCF.UserControls
             }
         }
 
+        /// <summary>
+        /// Update selected topic type in the database when selection is changed
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void comboBoxTopicType_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             try
@@ -286,6 +321,11 @@ namespace HOK.SmartBCF.UserControls
             }
         }
 
+        /// <summary>
+        /// Update selected topic status in the database when selection is changed
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void comboBoxTopicStatus_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             try
@@ -303,6 +343,11 @@ namespace HOK.SmartBCF.UserControls
             }
         }
 
+        /// <summary>
+        /// Update Assign To in the database when the text box lost its focus
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void textBoxAssignedTo_LostFocus(object sender, RoutedEventArgs e)
         {
             try
@@ -317,6 +362,11 @@ namespace HOK.SmartBCF.UserControls
             }
         }
 
+        /// <summary>
+        /// Update Action in the database  
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void comboBoxAction_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             try
@@ -339,6 +389,11 @@ namespace HOK.SmartBCF.UserControls
             }
         }
 
+        /// <summary>
+        /// Update Responsibility in the database
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void comboBoxResponsibility_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             try
@@ -362,6 +417,11 @@ namespace HOK.SmartBCF.UserControls
             }
         }
 
+        /// <summary>
+        /// Move to the next viewpoint image
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonNext_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -379,6 +439,11 @@ namespace HOK.SmartBCF.UserControls
             }
         }
 
+        /// <summary>
+        /// Move to the previous viewpoint image
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonBack_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -395,6 +460,11 @@ namespace HOK.SmartBCF.UserControls
             }
         }
 
+        /// <summary>
+        /// Delete the selected viewpoint image
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonDeleteView_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -414,6 +484,11 @@ namespace HOK.SmartBCF.UserControls
             }
         }
 
+        /// <summary>
+        /// Open a default image editor to add markups by users
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonEditView_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -441,6 +516,10 @@ namespace HOK.SmartBCF.UserControls
             }
         }
 
+        /// <summary>
+        /// Update Viewpoint image in the database
+        /// </summary>
+        /// <param name="tempImg"></param>
         private void EditViewPoint(string tempImg)
         {
             try

@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace HOK.SmartBCF.AddIn
 {
+    /// <summary>
+    /// External Command that shows MainWindow.xaml
+    /// </summary>
     [Autodesk.Revit.Attributes.Transaction(Autodesk.Revit.Attributes.TransactionMode.Manual)]
     public class Command : IExternalCommand
     {

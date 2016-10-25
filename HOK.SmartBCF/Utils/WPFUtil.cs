@@ -8,6 +8,9 @@ using System.Windows.Media;
 
 namespace HOK.SmartBCF.Utils
 {
+    /// <summary>
+    /// WPFUtil to find visual component
+    /// </summary>
     public static class WPFUtil
     {
         public static T FindVisualParent<T>(UIElement element) where T : UIElement

@@ -25,6 +25,9 @@ namespace HOK.SmartBCF.Windows
         MERGE = 0, REPLACE = 1, IGNORE = 2, NONE = 3
     }
 
+    /// <summary>
+    /// additional BCF file handler
+    /// </summary>
     public partial class TaskDialogWindow : Window
     {
         private TaskDialogOption selectedOption = TaskDialogOption.NONE;

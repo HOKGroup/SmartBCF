@@ -7,6 +7,9 @@ using System.Windows.Controls;
 
 namespace HOK.SmartBCF.Utils
 {
+    /// <summary>
+    /// Progress Manager for progress bar
+    /// </summary>
     public static class ProgressManager
     {
         public static ProgressBar progressBar = null;
@@ -20,6 +23,11 @@ namespace HOK.SmartBCF.Utils
         private static UpdateStatusLabelDelegate updateLabelDelegate = null;
         private static UpdateProgressBarDelegate updatePbDelegate = null;
 
+        /// <summary>
+        /// Reset the value
+        /// </summary>
+        /// <param name="statusText"></param>
+        /// <param name="maximum"></param>
         public static void InitializeProgress(string statusText, int maximum)
         {
             if (null != progressBar && null != statusLabel)
@@ -36,6 +44,9 @@ namespace HOK.SmartBCF.Utils
             }
         }
 
+        /// <summary>
+        /// Increase the value of the progress bar
+        /// </summary>
         public static void StepForward()
         {
             if (null != progressBar && null != statusLabel)
@@ -45,6 +56,9 @@ namespace HOK.SmartBCF.Utils
             }
         }
 
+        /// <summary>
+        /// Hide progress bar when it is no loger needed
+        /// </summary>
         public static void FinalizeProgress()
         {
             if (null != progressBar && null != statusLabel)

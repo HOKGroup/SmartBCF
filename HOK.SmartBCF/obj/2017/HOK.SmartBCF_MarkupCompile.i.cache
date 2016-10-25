@@ -12,9 +12,9 @@ DEBUG;TRACE
 
 61228195257
 32097237379
-33-2038846619
+32-311468707
 24829741884
 UserControls\BCFPanel.xaml;UserControls\CommandPanel.xaml;Windows\AddViewWindow.xaml;Windows\OptionWindow.xaml;Windows\SettingsWindow.xaml;Windows\TaskDialogWindow.xaml;
 
-True
+False
 

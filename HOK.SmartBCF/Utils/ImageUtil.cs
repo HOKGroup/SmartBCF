@@ -9,8 +9,16 @@ using System.Windows;
 
 namespace HOK.SmartBCF.Utils
 {
+    /// <summary>
+    ///ImageUtil for conversion format
+    /// </summary>
     public static class ImageUtil
     {
+        /// <summary>
+        /// convert to a byte array
+        /// </summary>
+        /// <param name="fileName"></param>
+        /// <returns></returns>
         public static byte[] GetImageArray(string fileName)
         {
             byte[] imgArray = null;
@@ -33,6 +41,11 @@ namespace HOK.SmartBCF.Utils
             return imgArray;
         }
 
+        /// <summary>
+        /// convert to an image file from byte array
+        /// </summary>
+        /// <param name="imgArray"></param>
+        /// <returns></returns>
         public static string ConvertToImageFile(byte[] imgArray)
         {
             string imageFile = "";

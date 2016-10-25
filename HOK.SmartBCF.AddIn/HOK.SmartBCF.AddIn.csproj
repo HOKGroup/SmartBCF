@@ -215,7 +215,6 @@
     <Compile Include="Util\RevitComponent.cs" />
     <Compile Include="Util\RevitLinkProperties.cs" />
     <Compile Include="Util\RevitUtils.cs" />
-    <Compile Include="Util\RoomProperties.cs" />
     <Compile Include="WindowViewModel.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -8,20 +8,33 @@ using System.Threading.Tasks;
 
 namespace HOK.SmartBCF.Schemas
 {
+    /// <summary>
+    /// Topic types exisitng in Solibri and BIM Collab
+    /// </summary>
     public enum TopicType
     {
         Error = 0, Info = 1, Unknown = 2, Warning = 3, Issue = 4, Fault = 5, Clash = 6, Request = 7, Inquiry = 8, Remark = 9, Undefined =10
     }
+
+    /// <summary>
+    /// Topic Status
+    /// </summary>
     public enum TopicStatus
     {
         Active = 0, Assigned = 1, Closed = 2, Open = 3, Resolved = 4
     }
 
+    /// <summary>
+    /// Topic Label
+    /// </summary>
     public enum TopicLable
     {
         Architecture = 0, Structure = 1, Mechanical = 2, Electrical = 3, Specifications = 4, Technology = 5
     }
 
+    /// <summary>
+    /// Collection of user-defined color scheme
+    /// </summary>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -52,6 +65,9 @@ namespace HOK.SmartBCF.Schemas
         }
     }
 
+    /// <summary>
+    /// color scheme for parameter
+    /// </summary>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -96,6 +112,9 @@ namespace HOK.SmartBCF.Schemas
         }
     }
 
+    /// <summary>
+    /// Collection of extended properties of component
+    /// </summary>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -126,6 +145,9 @@ namespace HOK.SmartBCF.Schemas
         }
     }
 
+    /// <summary>
+    /// Revit-specific properties related to components
+    /// </summary>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]

@@ -12,6 +12,9 @@ using System.Windows.Input;
 
 namespace HOK.SmartBCF.Schemas
 {
+    /// <summary>
+    /// BCF File class structure
+    /// </summary>
     public class BCFZIP : INotifyPropertyChanged 
     {
         private string fileId = "";
@@ -39,6 +42,7 @@ namespace HOK.SmartBCF.Schemas
         public ProjectExtension ProjectFile { get { return projectFile; } set { projectFile = value; NotifyPropertyChanged("ProjectFile"); } }
         public Version VersionFile { get { return versionFile; } set { versionFile = value; NotifyPropertyChanged("VersionFile"); } }
 
+        //selected markup index
         public int SelectedMarkup { get { return selectedMarkup; } set { selectedMarkup = value; NotifyPropertyChanged("SelectedMarkup"); } }
         public bool IsPrimary { get { return isPrimary; } set { isPrimary = value; NotifyPropertyChanged("IsPrimary"); } }
 
@@ -58,6 +62,9 @@ namespace HOK.SmartBCF.Schemas
             GetDefaultExtension();
         }
 
+        /// <summary>
+        /// Get default extension for color schemes of BCF_Action and BCF_Responsibility
+        /// </summary>
         private void GetDefaultExtension()
         {
             try
@@ -84,6 +91,13 @@ namespace HOK.SmartBCF.Schemas
             }
         }
 
+        /// <summary>
+        /// convert to byte array
+        /// </summary>
+        /// <param name="r">red</param>
+        /// <param name="g">green</param>
+        /// <param name="b">blue</param>
+        /// <returns></returns>
         private byte[] GetColorArray(int r, int g, int b)
         {
             byte[] colorBytes = new byte[3];

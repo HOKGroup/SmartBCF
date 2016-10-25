@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace HOK.SmartBCF.Utils
 {
+    /// <summary>
+    /// ZIP util to extract files and directories
+    /// </summary>
     public static class ZipArchiveEntryExtensions
     {
         public static string ExtractGuidFolderName(this ZipArchiveEntry entry)

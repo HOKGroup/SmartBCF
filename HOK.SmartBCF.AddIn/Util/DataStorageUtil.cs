@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace HOK.SmartBCF.AddIn.Util
 {
+    /// <summary>
+    /// Methods for extensible Storage in Revit projects
+    /// </summary>
     public static class DataStorageUtil
     {
         public static Guid settingSchemaId = new Guid("62822B99-C436-44CD-AC63-4F1A2C420C85");
@@ -15,6 +18,11 @@ namespace HOK.SmartBCF.AddIn.Util
 
         private static string s_linkedDBName = "LinkedDBName";
 
+        /// <summary>
+        /// Read linked database from the data storage
+        /// </summary>
+        /// <param name="doc"></param>
+        /// <returns></returns>
         public static string ReadLinkedDatabase(Document doc)
         {
             string databaseName = "";
@@ -43,6 +51,12 @@ namespace HOK.SmartBCF.AddIn.Util
             return databaseName;
         }
 
+        /// <summary>
+        /// Update the linked database
+        /// </summary>
+        /// <param name="doc"></param>
+        /// <param name="fileName"></param>
+        /// <returns></returns>
         public static bool UpdateLinkedDatabase(Document doc, string fileName)
         {
             bool updated = false;
@@ -81,6 +95,10 @@ namespace HOK.SmartBCF.AddIn.Util
         }
     
 
+        /// <summary>
+        /// Create the setting schema
+        /// </summary>
+        /// <returns></returns>
         public static Schema CreateSettingSchema()
         {
             Schema schema = null;
@@ -98,6 +116,12 @@ namespace HOK.SmartBCF.AddIn.Util
             return schema;
         }
 
+        /// <summary>
+        /// Get data storage of interest
+        /// </summary>
+        /// <param name="doc"></param>
+        /// <param name="schema"></param>
+        /// <returns></returns>
         private static IList<DataStorage> GetDataStorage(Document doc, Schema schema)
         {
             FilteredElementCollector collector = new FilteredElementCollector(doc);

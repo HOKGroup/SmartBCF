@@ -55,6 +55,11 @@ namespace HOK.SmartBCF.Windows
             comboBoxPrimary.SelectedIndex = viewModel.PrimaryFileIndex;
         }
 
+        /// <summary>
+        /// Update extensions into the database
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonApply_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -91,6 +96,11 @@ namespace HOK.SmartBCF.Windows
             }
         }
 
+        /// <summary>
+        /// Change the selected entry of the color 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonColor_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -133,6 +143,11 @@ namespace HOK.SmartBCF.Windows
             this.Close();
         }
 
+        /// <summary>
+        /// Add an entry of the color scheme
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonAddItem_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -155,6 +170,11 @@ namespace HOK.SmartBCF.Windows
             }
         }
 
+        /// <summary>
+        /// Delete the selected entry of the color scheme
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonDeleteItem_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -176,6 +196,11 @@ namespace HOK.SmartBCF.Windows
             }
         }
 
+        /// <summary>
+        /// Revert the change of the default color - empty
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void dataGridColor_BeginningEdit(object sender, DataGridBeginningEditEventArgs e)
         {
             try

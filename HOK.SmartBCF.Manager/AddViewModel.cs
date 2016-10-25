@@ -14,7 +14,9 @@ using System.Windows.Input;
 
 namespace HOK.SmartBCF.Manager
 {
-
+    /// <summary>
+    /// Desktop App mode (isAddInMode = false)
+    /// </summary>
     class AddViewModel : INotifyPropertyChanged
     {
         private BCFViewModel bcfView;

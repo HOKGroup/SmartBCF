@@ -14,6 +14,9 @@ using System.Windows;
 
 namespace HOK.SmartBCF.Utils
 {
+    /// <summary>
+    /// Value Converters
+    /// </summary>
     [ValueConversion(typeof(byte[]), typeof(ImageSource))]
     public class ImageSourceConverter : IValueConverter
     {

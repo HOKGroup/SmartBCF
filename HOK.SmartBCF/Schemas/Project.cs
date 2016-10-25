@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace HOK.SmartBCF.Schemas
 {
+    /// <summary>
+    /// reference: https://github.com/HOKGroup/SmartBCF/blob/master/Documentation/smartbcf_schema.md
+    /// </summary>
+    /// 
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]

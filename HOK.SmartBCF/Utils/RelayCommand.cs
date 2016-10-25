@@ -7,6 +7,9 @@ using System.Windows.Input;
 
 namespace HOK.SmartBCF.Utils
 {
+    /// <summary>
+    /// Command for bindings
+    /// </summary>
     public class RelayCommand : ICommand
     {
         private Action<object> execute;

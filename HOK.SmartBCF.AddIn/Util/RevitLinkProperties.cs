@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace HOK.SmartBCF.AddIn.Util
 {
+    /// <summary>
+    /// properties of Revit Link instances
+    /// </summary>
     public class RevitLinkProperties
     {
         private RevitLinkInstance m_instance = null;

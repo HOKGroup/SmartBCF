@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace HOK.SmartBCF.AddIn.Util
 {
+    /// <summary>
+    /// Revit Category Properties
+    /// </summary>
     public class CategoryProperties : INotifyPropertyChanged
     {
         private string categoryName = "";

@@ -30,6 +30,9 @@ namespace HOK.SmartBCF.AddIn
         BCF_AssignedTo
     }
 
+    /// <summary>
+    /// External Event Handler
+    /// </summary>
     public class BCFHandler : IExternalEventHandler
     {
         private UIApplication m_app = null;
@@ -156,6 +159,10 @@ namespace HOK.SmartBCF.AddIn
             }
         }
 
+        /// <summary>
+        /// Select an element and zoom to fit
+        /// </summary>
+        /// <returns></returns>
         private bool HighlightElements()
         {
             bool highlighted = false;
@@ -190,6 +197,11 @@ namespace HOK.SmartBCF.AddIn
             return highlighted;
         }
 
+        /// <summary>
+        /// isolate the element in the default view
+        /// </summary>
+        /// <param name="bcfView"></param>
+        /// <returns></returns>
         private bool IsolateElement(View3D bcfView)
         {
             bool isolated = false;
@@ -229,6 +241,11 @@ namespace HOK.SmartBCF.AddIn
             return isolated;
         }
 
+        /// <summary>
+        /// Create a section box using the bounding box of the element
+        /// </summary>
+        /// <param name="bcfView"></param>
+        /// <returns></returns>
         private bool PlaceSectionBox(View3D bcfView)
         {
             bool placed = false;
@@ -274,6 +291,10 @@ namespace HOK.SmartBCF.AddIn
             return placed;
         }
 
+        /// <summary>
+        /// Write BCF parameters
+        /// </summary>
+        /// <returns></returns>
         private bool WriteParameters()
         {
             bool updated = false;
@@ -324,6 +345,13 @@ namespace HOK.SmartBCF.AddIn
             return updated;
         }
 
+        /// <summary>
+        /// Write BCF parameter
+        /// </summary>
+        /// <param name="element"></param>
+        /// <param name="bcfParam"></param>
+        /// <param name="value"></param>
+        /// <returns></returns>
         private bool WriteParameter(Element element, BCFParameters bcfParam, string value)
         {
             bool updated = false;
@@ -357,6 +385,12 @@ namespace HOK.SmartBCF.AddIn
             return updated;
         }
 
+        /// <summary>
+        /// add a BCF parameter into the project parameter
+        /// </summary>
+        /// <param name="bcfParam"></param>
+        /// <param name="category"></param>
+        /// <returns></returns>
         private bool InsertBinding(BCFParameters bcfParam, Category category)
         {
             bool inserted = false;
@@ -431,6 +465,10 @@ namespace HOK.SmartBCF.AddIn
             return inserted;
         }
 
+        /// <summary>
+        /// Set the defualt view with viewpoint info
+        /// </summary>
+        /// <returns></returns>
         private bool SetViewPointView()
         {
             bool updated = false;
@@ -495,6 +533,10 @@ namespace HOK.SmartBCF.AddIn
             return updated;
         }
 
+        /// <summary>
+        /// set default view
+        /// </summary>
+        /// <returns></returns>
         public bool SetDefaultView()
         {
             bool result = false;
@@ -512,6 +554,12 @@ namespace HOK.SmartBCF.AddIn
             return result;
         }
 
+        /// <summary>
+        /// Set view properites from the OrthogonalCamera in viewpoint
+        /// </summary>
+        /// <param name="bcfView"></param>
+        /// <param name="camera"></param>
+        /// <returns></returns>
         private bool SetOrthogonalView(View3D bcfView, OrthogonalCamera camera)
         {
             bool result = false;
@@ -551,7 +599,12 @@ namespace HOK.SmartBCF.AddIn
             return result;
         }
 
-        //orthogonalview by PerspectiveCamera
+        /// <summary>
+        /// Set Orthogonal view by PerspectiveCamera
+        /// </summary>
+        /// <param name="bcfView"></param>
+        /// <param name="camera"></param>
+        /// <returns></returns>
         private bool SetOrthogonalView(View3D bcfView, PerspectiveCamera camera)
         {
             bool result = false;
@@ -588,6 +641,12 @@ namespace HOK.SmartBCF.AddIn
             return result;
         }
 
+        /// <summary>
+        /// Set perspective view by PerspectiveCamera
+        /// </summary>
+        /// <param name="bcfView"></param>
+        /// <param name="camera"></param>
+        /// <returns></returns>
         private bool SetPerspectiveView(View3D bcfView,  PerspectiveCamera camera)
         {
             bool result = false;
@@ -640,6 +699,11 @@ namespace HOK.SmartBCF.AddIn
             return result;
         }
 
+        /// <summary>
+        /// Set bounding box that will enclose components
+        /// </summary>
+        /// <param name="bcfView"></param>
+        /// <returns></returns>
         private bool SetViewPointBoundingBox(View3D bcfView)
         {
             bool boundingBoxSet = false;
@@ -720,6 +784,14 @@ namespace HOK.SmartBCF.AddIn
             return boundingBoxSet;
         }
 
+        /// <summary>
+        /// Clean settings applied to the view
+        /// </summary>
+        /// <param name="bcfView"></param>
+        /// <param name="removeHighlight"></param>
+        /// <param name="removeIsolate"></param>
+        /// <param name="removeSectionBox"></param>
+        /// <returns></returns>
         private bool CleanViewSettings(View3D bcfView, bool removeHighlight, bool removeIsolate, bool removeSectionBox)
         {
             bool cleaned = false;
@@ -767,6 +839,10 @@ namespace HOK.SmartBCF.AddIn
             return cleaned;
         }
 
+        /// <summary>
+        /// Create a default orthogonal view named "SmartBCF - Orthogonal"
+        /// </summary>
+        /// <returns></returns>
         private View3D CreateDefaultOrthoView()
         {
             View3D view3D = null;
@@ -809,6 +885,10 @@ namespace HOK.SmartBCF.AddIn
             return view3D;
         }
 
+        /// <summary>
+        /// Create a default perspective view named "SmartBCF - Perspective"
+        /// </summary>
+        /// <returns></returns>
         private View3D CreateDefaultPersView()
         {
             View3D view3D = null;
@@ -852,6 +932,11 @@ namespace HOK.SmartBCF.AddIn
             return view3D;
         }
 
+        /// <summary>
+        /// Find the default UI view
+        /// </summary>
+        /// <param name="bcfView"></param>
+        /// <returns></returns>
         private UIView FindDefaultUIView(View3D bcfView)
         {
             UIView uiview = null;
@@ -872,6 +957,10 @@ namespace HOK.SmartBCF.AddIn
             return uiview;
         }
 
+        /// <summary>
+        /// Get 3d view family
+        /// </summary>
+        /// <returns></returns>
         private ElementId GetViewFamilyTypeId()
         {
             ElementId viewTypeId = ElementId.InvalidElementId;
@@ -893,6 +982,10 @@ namespace HOK.SmartBCF.AddIn
             return viewTypeId;
         }
 
+        /// <summary>
+        /// Store tool's setting into the data storage
+        /// </summary>
+        /// <returns></returns>
         private bool StoreToolSettings()
         {
             bool stored = false;
@@ -913,6 +1006,10 @@ namespace HOK.SmartBCF.AddIn
             return stored;
         }
 
+        /// <summary>
+        /// Export current viewpoint image
+        /// </summary>
+        /// <returns></returns>
         private bool ExportImage()
         {
             bool exported = false;
@@ -953,6 +1050,11 @@ namespace HOK.SmartBCF.AddIn
             return exported;
         }
 
+        /// <summary>
+        /// Set image file into the viewpoint class
+        /// </summary>
+        /// <param name="imageFile"></param>
+        /// <returns></returns>
         private bool SetViewPoint(string imageFile)
         {
             bool result = false;
@@ -1004,6 +1106,11 @@ namespace HOK.SmartBCF.AddIn
             return result;
         }
 
+        /// <summary>
+        /// Create a collection of components by Revit elements
+        /// </summary>
+        /// <param name="viewpoint_Guid"></param>
+        /// <returns></returns>
         private ObservableCollection<Component> GetElements(string viewpoint_Guid)
         {
             ObservableCollection<Component> components = new ObservableCollection<Component>();
@@ -1061,6 +1168,12 @@ namespace HOK.SmartBCF.AddIn
             return components;
         }
 
+        /// <summary>
+        /// Get PerspectiveCamera by the active view
+        /// </summary>
+        /// <param name="view"></param>
+        /// <param name="viewpoint_Guid"></param>
+        /// <returns></returns>
         private PerspectiveCamera GetPerspectiveCamera(View3D view, string viewpoint_Guid)
         {
             PerspectiveCamera camera = new PerspectiveCamera();
@@ -1114,6 +1227,12 @@ namespace HOK.SmartBCF.AddIn
             return camera;
         }
 
+        /// <summary>
+        /// Get OrthogonalCamera by the active view
+        /// </summary>
+        /// <param name="view"></param>
+        /// <param name="viewpoint_Guid"></param>
+        /// <returns></returns>
         private OrthogonalCamera GetOrthogonalCamera(View3D view, string viewpoint_Guid)
         {
             OrthogonalCamera camera = new OrthogonalCamera();

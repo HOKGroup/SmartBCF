@@ -8,6 +8,9 @@ using System.Windows.Data;
 
 namespace HOK.SmartBCF.AddIn.Util
 {
+    /// <summary>
+    /// Apply category filters to components
+    /// </summary>
     [ValueConversion(typeof(ObservableCollection<RevitComponent>), typeof(ObservableCollection<RevitComponent>))]
     public class ComponentConverter : IValueConverter
     {

@@ -12,6 +12,9 @@ using System.Windows.Input;
 
 namespace HOK.SmartBCF.Manager
 {
+    /// <summary>
+    /// View Model bounded to MainWindow.xaml
+    /// </summary>
     internal class WindowViewModel
     {
         private BCFViewModel bcfViewModel;
