@@ -2,7 +2,7 @@
 
 
 The SmartBCF is designed to convert [BCF](https://github.com/BuildingSMART/BCF-XML) to file-based database [SQLite](https://www.sqlite.org/) to facilitate issue tracking in more collaborative workflow. The SmartBCF package consists of two components, SmartBCF Manager for desktop app and SmartBCF Add-In for Revit.
-![](Diagram.png)
+![](Documentation/Images/Diagram.png)
 
 #Data Transmission
 The SmartBCF itself doesn't support to generate BCF files yet. The feature could be implemented in the next version. 
@@ -10,7 +10,7 @@ For general usages, preparing BCF files from other Rule Checking software like [
 
 
 
-![](DataTransfer.png)
+![](Documentation/Images/DataTransfer.png)
 #Documentation
 For more information about the SmartBCF, documentation links are below.
 * [SmartBCF Manager](https://hokgroup.gitbooks.io/smartbcf/content/smartbcf_manager.html)
