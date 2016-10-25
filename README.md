@@ -13,8 +13,8 @@ For general usages, preparing BCF files from other Rule Checking software like [
 ![](Documentation/Images/DataTransfer.png)
 #Documentation
 For more information about the SmartBCF, documentation links are below.
-* [SmartBCF Manager](https://hokgroup.gitbooks.io/smartbcf/content/smartbcf_manager.html)
-* [SmartBCF Add-In for Revit](https://hokgroup.gitbooks.io/smartbcf/content/smartbcf_add-in.html)
+* [SmartBCF Manager](Documentation/smartbcf_manager.md)
+* [SmartBCF Add-In for Revit](Documentation/smartbcf_add-in.md)
 
 #Installation
 
