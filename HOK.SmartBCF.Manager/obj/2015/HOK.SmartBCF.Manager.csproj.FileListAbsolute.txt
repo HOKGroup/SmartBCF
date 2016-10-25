@@ -1,0 +1,31 @@
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\obj\2015\App.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\bin\2015\EntityFramework.dll
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\bin\2015\EntityFramework.SqlServer.dll
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\bin\2015\HOK.SmartBCF.dll
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\bin\2015\System.Data.SQLite.dll
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\bin\2015\System.Data.SQLite.EF6.dll
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\bin\2015\System.Data.SQLite.Linq.dll
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\bin\2015\System.Windows.Interactivity.dll
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\bin\2015\HOK.SmartBCF.pdb
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\bin\2015\EntityFramework.xml
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\bin\2015\EntityFramework.SqlServer.xml
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\bin\2015\System.Data.SQLite.xml
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\obj\2015\HOK.SmartBCF.Manager.csprojResolveAssemblyReference.cache
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\obj\2015\MainWindow.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\obj\2015\GeneratedInternalTypeHelper.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\obj\2015\MainWindow.baml
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\obj\2015\HOK.SmartBCF.Manager.Properties.Resources.resources
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\obj\2015\HOK.SmartBCF.Manager.csproj.GenerateResource.Cache
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\bin\2015\HOK SmartBCF Manager.exe.config
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\bin\2015\HOK SmartBCF Manager.exe.manifest
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\bin\2015\HOK SmartBCF Manager.application
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\bin\2015\HOK SmartBCF Manager.exe
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\bin\2015\HOK SmartBCF Manager.pdb
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\obj\2015\HOK SmartBCF Manager_Content.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\obj\2015\HOK SmartBCF Manager_MarkupCompile.cache
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\obj\2015\HOK SmartBCF Manager_MarkupCompile.lref
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\obj\2015\HOK SmartBCF Manager.g.resources
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\obj\2015\HOK SmartBCF Manager.exe.manifest
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\obj\2015\HOK SmartBCF Manager.application
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\obj\2015\HOK SmartBCF Manager.exe
+C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\obj\2015\HOK SmartBCF Manager.pdb

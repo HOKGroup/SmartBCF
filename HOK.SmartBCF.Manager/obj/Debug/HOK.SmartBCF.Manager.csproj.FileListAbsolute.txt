@@ -1,0 +1,32 @@
+C:\Users\Jinsol.Kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.Manager\bin\Debug\HOK.SmartBCF.Manager.exe.config
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\bin\Debug\HOK SmartBCF Manager.exe.config
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\bin\Debug\HOK SmartBCF Manager.exe.manifest
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\bin\Debug\HOK SmartBCF Manager.application
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\bin\Debug\HOK SmartBCF Manager.exe
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\bin\Debug\HOK SmartBCF Manager.pdb
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\bin\Debug\EntityFramework.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\bin\Debug\HOK.SmartBCF.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\bin\Debug\System.Data.SQLite.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\bin\Debug\HOK.SmartBCF.pdb
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\bin\Debug\EntityFramework.xml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\bin\Debug\System.Data.SQLite.xml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\obj\Debug\HOK.SmartBCF.Manager.csprojResolveAssemblyReference.cache
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\obj\Debug\MainWindow.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\obj\Debug\App.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\obj\Debug\HOK SmartBCF Manager_Content.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\obj\Debug\HOK SmartBCF Manager_MarkupCompile.cache
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\obj\Debug\HOK SmartBCF Manager_MarkupCompile.lref
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\obj\Debug\MainWindow.baml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\obj\Debug\HOK SmartBCF Manager.g.resources
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\obj\Debug\HOK.SmartBCF.Manager.Properties.Resources.resources
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\obj\Debug\HOK.SmartBCF.Manager.csproj.GenerateResource.Cache
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\obj\Debug\HOK SmartBCF Manager.exe.manifest
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\obj\Debug\HOK SmartBCF Manager.application
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\obj\Debug\HOK SmartBCF Manager.exe
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.Manager\obj\Debug\HOK SmartBCF Manager.pdb
