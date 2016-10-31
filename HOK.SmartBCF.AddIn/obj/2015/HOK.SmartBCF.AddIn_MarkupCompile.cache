@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.AddIn\obj\2015\
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\obj\2015\
 HOK.SmartBCF.AddIn
 none
 false
@@ -12,8 +12,8 @@ TRACE;DEBUG;RELEASE2015
 
 3-687190835
 2-233562068
-19498986726
-251747948592
+18-757181264
+25-91280972
 ComponentWindow.xaml;FilterWindow.xaml;MainWindow.xaml;
 
 False

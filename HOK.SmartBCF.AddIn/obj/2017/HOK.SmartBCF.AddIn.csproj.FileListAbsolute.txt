@@ -29,3 +29,34 @@ C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF
 C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.AddIn\obj\2017\HOK.SmartBCF.AddIn.csproj.GenerateResource.Cache
 C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.AddIn\obj\2017\HOK.SmartBCF.AddIn.dll
 C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF.AddIn\obj\2017\HOK.SmartBCF.AddIn.pdb
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\bin\2017\HOK.SmartBCF.addin
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\bin\2017\Resources\Addins Shared Parameters.txt
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\bin\2017\HOK.SmartBCF.AddIn.dll.config
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\bin\2017\HOK.SmartBCF.AddIn.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\bin\2017\HOK.SmartBCF.AddIn.pdb
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\bin\2017\EntityFramework.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\bin\2017\EntityFramework.SqlServer.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\bin\2017\HOK.SmartBCF.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\bin\2017\System.Data.SQLite.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\bin\2017\System.Data.SQLite.EF6.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\bin\2017\System.Data.SQLite.Linq.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\bin\2017\System.Windows.Interactivity.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\bin\2017\HOK.SmartBCF.pdb
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\bin\2017\EntityFramework.xml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\bin\2017\EntityFramework.SqlServer.xml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\bin\2017\System.Data.SQLite.xml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\obj\2017\HOK.SmartBCF.AddIn.csprojResolveAssemblyReference.cache
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\obj\2017\FilterWindow.baml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\obj\2017\ComponentWindow.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\obj\2017\FilterWindow.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\obj\2017\MainWindow.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\obj\2017\GeneratedInternalTypeHelper.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\obj\2017\HOK.SmartBCF.AddIn_MarkupCompile.cache
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\obj\2017\HOK.SmartBCF.AddIn_MarkupCompile.lref
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\obj\2017\ComponentWindow.baml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\obj\2017\MainWindow.baml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\obj\2017\HOK.SmartBCF.AddIn.g.resources
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\obj\2017\HOK.SmartBCF.AddIn.Properties.Resources.resources
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\obj\2017\HOK.SmartBCF.AddIn.csproj.GenerateResource.Cache
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\obj\2017\HOK.SmartBCF.AddIn.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF.AddIn\obj\2017\HOK.SmartBCF.AddIn.pdb

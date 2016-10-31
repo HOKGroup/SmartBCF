@@ -31,3 +31,36 @@ C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF
 C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF\obj\2016\HOK.SmartBCF.csprojResolveAssemblyReference.cache
 C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF\obj\2016\Windows\AddViewWindow.g.cs
 C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF\obj\2016\Windows\AddViewWindow.baml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\bin\2016\HOK.SmartBCF.dll.config
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\bin\2016\HOK.SmartBCF.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\bin\2016\HOK.SmartBCF.pdb
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\bin\2016\EntityFramework.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\bin\2016\EntityFramework.SqlServer.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\bin\2016\System.Data.SQLite.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\bin\2016\System.Data.SQLite.EF6.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\bin\2016\System.Data.SQLite.Linq.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\bin\2016\System.Windows.Interactivity.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\bin\2016\EntityFramework.xml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\bin\2016\EntityFramework.SqlServer.xml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\bin\2016\System.Data.SQLite.xml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\HOK.SmartBCF.csprojResolveAssemblyReference.cache
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\Windows\OptionWindow.baml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\Windows\TaskDialogWindow.baml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\UserControls\BCFPanel.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\UserControls\CommandPanel.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\Windows\AddViewWindow.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\Windows\OptionWindow.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\Windows\SettingsWindow.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\Windows\TaskDialogWindow.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\GeneratedInternalTypeHelper.g.cs
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\HOK.SmartBCF_MarkupCompile.cache
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\HOK.SmartBCF_MarkupCompile.lref
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\UserControls\BCFPanel.baml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\UserControls\CommandPanel.baml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\Windows\AddViewWindow.baml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\Windows\SettingsWindow.baml
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\HOK.SmartBCF.g.resources
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\HOK.SmartBCF.Properties.Resources.resources
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\HOK.SmartBCF.csproj.GenerateResource.Cache
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\HOK.SmartBCF.dll
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\HOK.SmartBCF.pdb

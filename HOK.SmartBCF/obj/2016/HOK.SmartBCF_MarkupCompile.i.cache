@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\jinsol.kim\Documents\GitHub\HOK-Revit-Addins\Smart BCF\src\HOK.SmartBCF\HOK.SmartBCF\obj\2016\
+C:\Users\jinsol.kim\Documents\GitHub\SmartBCF\HOK.SmartBCF\obj\2016\
 HOK.SmartBCF
 none
 false
@@ -12,8 +12,8 @@ DEBUG;TRACE
 
 61228195257
 32097237379
-33961313801
-2475429814
+32-1606275583
+24829741884
 UserControls\BCFPanel.xaml;UserControls\CommandPanel.xaml;Windows\AddViewWindow.xaml;Windows\OptionWindow.xaml;Windows\SettingsWindow.xaml;Windows\TaskDialogWindow.xaml;
 
 True
