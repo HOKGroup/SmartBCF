@@ -8,8 +8,8 @@ The SmartBCF Add-In is another component of the tool set including more advanced
 If you want to find the components of the selected topic, press Components button on the tool bar. The tool will open a 3D view among two default views below with the corresponding view settings.
 ![](Images/Views.png)
 
-* **SmartBCF - Orthogonal**: if components exist in the current Revit project, a boundingbox that embraces all the components matched will be created for the Section Box.
-* **SmartBCF - Perspective**: if no component can be found from the Revit project and if PerspectiveCamera is defined, the background view will be updated as a camera view with the viewpoint settings.
+* **SmartBCF - Orthogonal - [user name]**: if components exist in the current Revit project, a boundingbox that embraces all the components matched will be created for the Section Box.
+* **SmartBCF - Perspective - [user name]**: if no component can be found from the Revit project and if PerspectiveCamera is defined, the background view will be updated as a camera view with the viewpoint settings.
 
 ![](Images/aComponent.png)
 
